@@ -1,0 +1,111 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CMultiSelect customize 1`] = `
+<div>
+  <select
+    multiple=""
+    style="display: none;"
+    tabindex="-1"
+  >
+    <option
+      value="value1"
+    >
+      text1
+    </option>
+    <option
+      disabled=""
+      value="value3"
+    >
+      text3
+    </option>
+  </select>
+  <div
+    class="form-multi-select show form-multi-select-selection-tags bazinga"
+  >
+    <span
+      class="form-multi-select-selection"
+    >
+      <span
+        class="form-multi-select-tag"
+      >
+        text3
+      </span>
+    </span>
+    <button
+      class="form-multi-select-selection-cleaner"
+      type="button"
+    />
+    <input
+      class="form-multi-select-search"
+      size="2"
+      type="text"
+    />
+    <div
+      class="form-multi-select-dropdown"
+    >
+      <button
+        class="form-multi-select-all"
+        type="button"
+      >
+        selectAllLabel
+      </button>
+      <div
+        class="form-multi-select-options"
+        style="max-height: 150px; overflow: scroll;"
+      >
+        <div
+          class="form-multi-select-option form-multi-select-option-with-checkbox"
+        >
+          text1
+        </div>
+        <div
+          class="form-multi-select-option form-multi-select-option-with-checkbox form-multi-selected disabled"
+        >
+          text3
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`loads and displays CMultiSelect component 1`] = `
+<div>
+  <select
+    multiple=""
+    style="display: none;"
+    tabindex="-1"
+  />
+  <div
+    class="form-multi-select form-multi-select-selection-tags"
+  >
+    <span
+      class="form-multi-select-selection"
+    />
+    <input
+      class="form-multi-select-search"
+      placeholder="Select..."
+      type="text"
+    />
+    <div
+      class="form-multi-select-dropdown"
+    >
+      <button
+        class="form-multi-select-all"
+        type="button"
+      >
+        Select all options
+      </button>
+      <div
+        class="form-multi-select-options"
+      >
+        <div
+          class="form-multi-select-options-empty"
+        >
+          No results found
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

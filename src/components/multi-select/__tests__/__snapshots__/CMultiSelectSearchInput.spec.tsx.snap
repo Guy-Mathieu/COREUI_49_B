@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CMultiSelectSearchInput customize 1`] = `
+<div>
+  <input
+    class="form-multi-select-search"
+    placeholder="some placeholder"
+    type="text"
+  />
+</div>
+`;
+
+exports[`loads and displays CMultiSelectSearchInput component 1`] = `
+<div>
+  <input
+    class="form-multi-select-search"
+    type="text"
+  />
+</div>
+`;

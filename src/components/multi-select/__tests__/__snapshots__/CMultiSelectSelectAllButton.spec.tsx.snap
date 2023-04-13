@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CMultiSelectSelectAllButton customize 1`] = `
+<div>
+  <button
+    class="form-multi-select-all"
+    placeholder="some placeholder"
+    type="button"
+  >
+    bazinga
+  </button>
+</div>
+`;
+
+exports[`loads and displays CMultiSelectSelectAllButton component 1`] = `
+<div>
+  <button
+    class="form-multi-select-all"
+    type="button"
+  >
+    text
+  </button>
+</div>
+`;

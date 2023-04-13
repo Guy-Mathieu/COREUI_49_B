@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CMultiSelectCleaner customize 1`] = `
+<div>
+  <button
+    class="form-multi-select-selection-cleaner"
+    type="button"
+  />
+</div>
+`;
+
+exports[`loads and displays CMultiSelectCleaner component 1`] = `
+<div>
+  <button
+    class="form-multi-select-selection-cleaner"
+    type="button"
+  />
+</div>
+`;
